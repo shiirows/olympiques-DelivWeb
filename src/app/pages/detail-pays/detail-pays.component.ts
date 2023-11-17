@@ -177,7 +177,7 @@ export class DetailPaysComponent implements OnInit, OnDestroy {
       })
     );
 
-    function createSeries(name, field): void {
+    function createSeries(name:string, field:string): void {
       let series = chart.series.push(
         am5xy.LineSeries.new(root, {
           name: name,

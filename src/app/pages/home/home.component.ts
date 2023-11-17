@@ -118,7 +118,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       radius: 10,
     });
 
-    series.slices.template.events.on('click', (ev) => {
+    series.slices.template.events.on('click', (ev): void => {
       const dataContext = ev.target.dataItem?.dataContext as { id: number };
       if (dataContext && typeof dataContext.id === 'number') {
         this.route.navigate(['detailpays', dataContext.id]);
