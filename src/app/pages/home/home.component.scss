@@ -1,0 +1,17 @@
+:root {
+    --mobile: 768px;
+    --tablet: 1024px;
+    --desktop: 1280px;
+  }
+  
+  #chartdiv {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: var(--mobile)) {
+    .box {
+      width: 100%;
+    }
+  }
+  
