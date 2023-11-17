@@ -1,11 +1,11 @@
-<div class="container">
-    <div class="page-header">
-      <h1>{{heading.title}}</h1>
-    </div>
-    <div class="content">
-      <div *ngFor="let medal of heading.items" class="box">
-        <div class="title">{{ medal.action }}</div>
-        <div class="number">{{ medal.data }}</div>
-      </div>
+<div class="container" *ngIf="heading">
+  <div class="page-header">
+    <h1>{{ heading.title }}</h1>
+  </div>
+  <div class="content">
+    <div *ngFor="let medal of heading.items" class="box">
+      <div class="title">{{ medal.action }}</div>
+      <div class="number">{{ medal.data }}</div>
     </div>
   </div>
+</div>
