@@ -1,0 +1,26 @@
+:root {
+    --mobile: 768px;
+    --tablet: 1024px;
+    --desktop: 1280px;
+  }
+  
+  .back-button {
+    background-color: #04838F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: rgb(1, 61, 126);
+  }
+  
+  @media only screen and (max-width: --mobile) {
+    .box {
+      width: 100%;
+    }
+  }
+  

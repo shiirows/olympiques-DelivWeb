@@ -6,9 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HeadingComponent } from './pages/heading/heading.component';
+import { DetailPaysComponent } from './pages/detail-pays/detail-pays.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeadingComponent],
+  declarations: [AppComponent, HomeComponent, NotFoundComponent, HeadingComponent, DetailPaysComponent],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
