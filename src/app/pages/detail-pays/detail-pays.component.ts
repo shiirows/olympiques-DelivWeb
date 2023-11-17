@@ -192,7 +192,7 @@ export class DetailPaysComponent implements OnInit, OnDestroy {
         })
       );
 
-      series.bullets.push(function () {
+      series.bullets.push(function (): am5.Bullet {
         return am5.Bullet.new(root, {
           sprite: am5.Circle.new(root, {
             radius: 5,
